@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.owl.sample.transition">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CircularRevealActivity"
+            android:label="CircularReveal"/>
+        <activity
+            android:name=".preL.Slide"
+            android:label="Slide"/>
+        <activity
+            android:name=".preL.Fade"
+            android:label="Fade"/>
+        <activity
+            android:name=".l.Explode"
+            android:label="Explode"/>
+        <activity
+            android:name=".l.Fade"
+            android:label="Fade"/>
+        <activity
+            android:name=".l.Move"
+            android:label="Move"/>
+        <activity
+            android:name=".l.SlideLeft"
+            android:label="SlideLeft"/>
+        <activity
+            android:name=".l.SlideRight"
+            android:label="SlideRight"/>
+        <activity
+            android:name=".l.SlideTop"
+            android:label="SlideTop"/>
+        <activity
+            android:name=".l.SlideBottom"
+            android:label="SlideBottom"/>
+        <activity
+            android:name=".l.ShareElement"
+            android:label="ShareElement"/>
+        <activity
+            android:name=".l.ShareElementSingle"
+            android:label="ShareElementSingle"/>
+        <activity
+            android:name=".l.ShareElementBoth"
+            android:label="ShareElementBoth"/>
+        <activity
+            android:name=".l.ShareElementCustom"
+            android:label="ShareElementCustom"/>
+
+    </application>
+
+</manifest>
